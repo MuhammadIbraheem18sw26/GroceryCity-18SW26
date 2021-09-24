@@ -7,39 +7,39 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.shopkar0.ui.home.HomeFragment"
+        android:name="com.example.GroceryCity.ui.home.HomeFragment"
         android:label="@string/home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_profile"
-        android:name="com.example.shopkar0.ui.profile.ProfileFragment"
+        android:name="com.example.GroceryCity.ui.profile.ProfileFragment"
         android:label="@string/profile"
         tools:layout="@layout/fragment_profile" />
 
     <fragment
         android:id="@+id/nav_category"
-        android:name="com.example.shopkar0.ui.category.CategoryFragment"
+        android:name="com.example.GroceryCity.ui.category.CategoryFragment"
         android:label="@string/category"
         tools:layout="@layout/fragment_category" />
     <fragment
         android:id="@+id/nav_offers"
-        android:name="com.example.shopkar0.OffersFragment"
+        android:name="com.example.GroceryCity.OffersFragment"
         android:label="@string/offers"
         tools:layout="@layout/fragment_offers" />
     <fragment
         android:id="@+id/nav_new_products"
-        android:name="com.example.shopkar0.NewProductsFragment"
+        android:name="com.example.GroceryCity.NewProductsFragment"
         android:label="@string/newProducts"
         tools:layout="@layout/fragment_new_products" />
     <fragment
         android:id="@+id/nav_my_orders"
-        android:name="com.example.shopkar0.MyOrdersFragment"
+        android:name="com.example.GroceryCity.MyOrdersFragment"
         android:label="@string/myOrders"
         tools:layout="@layout/fragment_my_orders" />
     <fragment
         android:id="@+id/nav_my_cart"
-        android:name="com.example.shopkar0.MyCartFragment"
+        android:name="com.example.GroceryCity.MyCartFragment"
         android:label="@string/myCart"
         tools:layout="@layout/fragment_my_cart" />
 </navigation>

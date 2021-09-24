@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.shopkar0.activites.ItemsDetailActivity">
+    tools:context="com.example.GroceryCity.activites.ItemsDetailActivity">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/itemsDetailActivity_toolbar"
         android:layout_width="match_parent"
