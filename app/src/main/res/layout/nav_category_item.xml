@@ -12,7 +12,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#C1E3F5FD"
+        android:background="#D9F8BE"
         android:orientation="horizontal">
 
         <com.makeramen.roundedimageview.RoundedImageView

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.shopkar0.activites.WelcomePageActivity">
+    tools:context="com.example.GroceryCity.activites.WelcomePageActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout3"
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/aclonica"
-            android:text="ShopKaro "
+            android:text="GroceryCity"
             android:textColor="@color/purple_700"
             android:textSize="35sp"
             android:textStyle="bold|italic" />
@@ -44,7 +44,6 @@
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:src="@mipmap/welcome"
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
@@ -120,7 +119,7 @@
             android:layout_marginVertical="35dp"
             android:fontFamily="@font/aclonica"
             android:gravity="clip_vertical|center_horizontal"
-            android:text="ShopKaro"
+            android:text="Compromise No "
             android:textColor="@color/purple_700"
             android:textSize="25sp"
             tools:layout_editor_absoluteX="59dp"
@@ -134,7 +133,7 @@
             android:layout_marginRight="10dp"
             android:fontFamily="@font/aclonica"
             android:gravity="clip_vertical|center_horizontal"
-            android:text="زندگی کو Enjoy کرو  "
+            android:text="صحت پر"
             android:textColor="@color/purple_700"
             android:textSize="20sp"
             tools:layout_editor_absoluteX="59dp"

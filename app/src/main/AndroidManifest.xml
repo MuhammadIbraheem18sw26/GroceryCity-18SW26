@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.shopkar0">
+    package="com.example.GroceryCity">
 
     <application
         android:allowBackup="true"
@@ -9,21 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GroceryCity">
-        <activity android:name="com.example.shopkar0.activites.PlaceOrderActivity"></activity>
-        <activity android:name="com.example.shopkar0.activites.CategoryItemViewActivity" />
-        <activity android:name="com.example.shopkar0.activites.ItemsDetailActivity" />
-        <activity android:name="com.example.shopkar0.activites.ViewAllActivity" />
-        <activity android:name="com.example.shopkar0.activites.WelcomePageActivity">
+        <activity android:name="com.example.GroceryCity.activites.PlaceOrderActivity"></activity>
+        <activity android:name="com.example.GroceryCity.activites.CategoryItemViewActivity" />
+        <activity android:name="com.example.GroceryCity.activites.ItemsDetailActivity" />
+        <activity android:name="com.example.GroceryCity.activites.ViewAllActivity" />
+        <activity android:name="com.example.GroceryCity.activites.WelcomePageActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.shopkar0.activites.SignInActivity" />
-        <activity android:name="com.example.shopkar0.activites.SignUpActivity" />
+        <activity android:name="com.example.GroceryCity.activites.SignInActivity" />
+        <activity android:name="com.example.GroceryCity.activites.SignUpActivity" />
         <activity
-            android:name="com.example.shopkar0.activites.MainActivity"
+            android:name="com.example.GroceryCity.activites.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.GroceryCity.NoActionBar" />
 
